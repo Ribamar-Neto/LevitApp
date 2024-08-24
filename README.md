@@ -13,7 +13,7 @@ O App de Geração de Escalas para Igrejas, uma ferramenta desenvolvida para aux
  ![HTML](https://img.icons8.com/color/48/html-5.png)
 ![CSS](https://img.icons8.com/color/48/css3.png)
 ![JavaScript](https://img.icons8.com/color/48/javascript.png)
-![React](https://img.icons8.com/?size=100&id=wPohyHO_qO1a&format=png&color=000000)
+![React](https://img.icons8.com/?size=48&id=wPohyHO_qO1a&format=png&color=000000)
 
 
 ## Contribuição
