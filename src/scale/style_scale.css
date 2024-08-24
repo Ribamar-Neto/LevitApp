@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'timmana';
-  src: url('./fonts/Timmana/Timmana-Regular.ttf');
+  src: url('/fonts/Timmana/Timmana-Regular.ttf');
 }
 
 body {
