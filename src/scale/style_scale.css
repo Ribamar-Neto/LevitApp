@@ -123,6 +123,10 @@ body {
   padding-top: 50px;
 }
 
+.modal {
+  width: 400px;
+}
+
 #main_footer {
   display: none;
 }
@@ -214,6 +218,10 @@ body {
 
   #date {
     display: none;
+  }
+
+  .modal {
+    width: 200px;
   }
 
   #date_mobile {
