@@ -15,6 +15,10 @@ const SidebarMenu = () => {
     navigate('/edit_scale')
   }
 
+  const goToMinistries = () => {
+    navigate('/ministries')
+  }
+
   const toggleDrawer = (open) => () => {
     setOpen(open);
   };
@@ -56,7 +60,7 @@ const SidebarMenu = () => {
               <ListItemText primary="Editar escala" onClick={goToEditScale}/>
             </ListItem>
             <ListItem>
-              <ListItemText primary="Ministérios" />
+              <ListItemText primary="Ministérios" onClick={goToMinistries}/>
             </ListItem>
             <ListItem>
               <ListItemText primary="Calendário" />

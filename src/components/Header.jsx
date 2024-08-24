@@ -19,6 +19,10 @@ const Header = () => {
     navigate('/home')
   }
 
+  const goToMinistries = () => {
+    navigate('/ministries')
+  }
+
   return (
     <div>
       <header className="head sticky">
@@ -46,6 +50,7 @@ const Header = () => {
           className="btt"
           variant="contained"
           startIcon={<ChurchOutlinedIcon />}
+          onClick={goToMinistries}
         >
           Ministérios
         </Button>
