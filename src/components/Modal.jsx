@@ -14,7 +14,6 @@ const style = {
   top: '50%',
   left: '50%',
   transform: 'translate(-50%, -50%)',
-  width: 400,
   bgcolor: 'background.paper',
   border: '2px solid #000',
   boxShadow: 24,
@@ -63,7 +62,7 @@ export default function BasicModal({ open, setOpen, onAddPerson, day, person }) 
       aria-labelledby="modal-modal-title"
       aria-describedby="modal-modal-description"
     >
-      <Box sx={style}>
+      <Box sx={style} className={"modal"}>
         <Typography id="modal-modal-title" variant="h6" component="h2">
           {person ? "Editar Pessoa" : "Adicionar Pessoa"}
         </Typography>
